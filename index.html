@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
     <header>
@@ -21,7 +23,7 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>   
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#certificacoes">Certificações</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#contato">Contato</a></li>
@@ -34,7 +36,8 @@
             <div class="hero-content">
                 <span class="badge">Amador em Redes</span>
                 <h1>Daniel <br> Fernandes</h1>
-                <p>Sou um jovem dedicado, com aprendizagem rápida, capacidade de liderança e uma boa facilidade em  trabalhos em equipa. </p>
+                <p>Sou um jovem dedicado, com aprendizagem rápida, capacidade de liderança e uma boa facilidade em
+                    trabalhos em equipa. </p>
                 <div class="cta-group">
                     <a href="#contato" class="btn btn-dark">Entre em Contato</a>
                     <a href="#projetos" class="btn btn-outline">Ver Projetos</a>
@@ -57,9 +60,31 @@
                     <div class="skill-card">
                         <div class="skill-icon"><i class="fa-solid fa-network-wired"></i></div>
                         <h3>Redes</h3>
-                        <ul><li>TCP/IP & VLANs</li><li>Routing & Switching</li><li>Firewalls/Cisco</li></ul>
+                        <ul>
+                            <li>TCP/IP & VLANs</li>
+                            <li>Routing & Switching</li>
+                            <li>Firewalls/Cisco</li>
+                        </ul>
                     </div>
-                    
+
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-linux"></i></div>
+                        <h3>Linux</h3>
+                        <ul>
+                            <li>Fail2ban</li>
+                            <li>Apache - DHCP</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                        <h3>Linux</h3>
+                        <ul>
+                            <li>Pygame</li>
+                            <li>DataFrames</li>
+                        </ul>
+                    </div>
+
 
 
                 </div>
@@ -74,40 +99,43 @@
 
 
             <div class="certs-grid">
-                
-                    <a href="https://www.netacad.com/pt/profile?&tab=badges" class="cert-link" target="_blank" rel="noopener noreferrer">
 
-                        <div class="cert-card">
-                            <img src="Introdução ao Packet Tracer.png" alt="Cisco">
-                            <div class="cert-info">
-                                <strong>Introdução ao Packet Tracer</strong>
-                                <p>Certificado Cisco</p>
-                            </div>
+                <a href="https://www.netacad.com/pt/profile?&tab=badges" class="cert-link" target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div class="cert-card">
+                        <img src="Introdução ao Packet Tracer.png" alt="Cisco">
+                        <div class="cert-info">
+                            <strong>Introdução ao Packet Tracer</strong>
+                            <p>Certificado Cisco</p>
                         </div>
-                    </a>
+                    </div>
+                </a>
 
-                    <a href="https://www.netacad.com/pt/profile?&tab=badges" class="cert-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.netacad.com/pt/profile?&tab=badges" class="cert-link" target="_blank"
+                    rel="noopener noreferrer">
 
-                        <div class="cert-card">
-                            <img src="python_essentials_1_50.png" alt="Cisco">
-                            <div class="cert-info">
-                                <strong>Fundamentos do Python 1</strong>
-                                <p>Certificado Cisco</p>
-                            </div>
+                    <div class="cert-card">
+                        <img src="python_essentials_1_50.png" alt="Cisco">
+                        <div class="cert-info">
+                            <strong>Fundamentos do Python 1</strong>
+                            <p>Certificado Cisco</p>
                         </div>
-                    </a>
-                    
+                    </div>
+                </a>
 
-                    <a href="https://www.netacad.com/pt/profile?&tab=badges" class="cert-link" target="_blank" rel="noopener noreferrer">
 
-                        <div class="cert-card">
-                            <img src="internet das coisas.png" alt="Cisco">
-                            <div class="cert-info">
-                                <strong>Introdução à IoT</strong>
-                                <p>Certificado Cisco</p>
-                            </div>
+                <a href="https://www.netacad.com/pt/profile?&tab=badges" class="cert-link" target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div class="cert-card">
+                        <img src="internet das coisas.png" alt="Cisco">
+                        <div class="cert-info">
+                            <strong>Introdução à IoT</strong>
+                            <p>Certificado Cisco</p>
                         </div>
-                    </a>
+                    </div>
+                </a>
 
 
             </div>
@@ -122,14 +150,15 @@
                 <div class="projects-grid">
 
 
-                    <div class="project-card" onclick="abrirProjeto('Segmentação LAN/WLAN', 'Implementação detalhada de Radius e VLANs para controle corporativo. O projeto focou na segregação de tráfego entre departamentos e segurança de acesso Wi-Fi. ', 'Segmentação LAN-WLAN.avif')">
+                    <div class="project-card"
+                        onclick="abrirProjeto('NetGuard Pro', 'Este projeto, intitulado NetGuard Pro, é uma ferramenta de Administração e Segurança de Redes Locais (LAN) desenvolvida em Python. Ele funciona como um sistema de monitorização ativa, combinando uma interface gráfica amigável com técnicas de análise de pacotes de baixo nível. O software foi desenhado para identificar e gerir dispositivos ligados a uma rede privada. A sua função principal é garantir que apenas dispositivos autorizados (presentes numa Whitelist) possam navegar livremente, agindo automaticamente contra intrusos para mitigar riscos de segurança.', 'projeto-PAP.png' )">
                         <div class="project-header"> A MINHA PAP</div>
                         <div class="project-body">
-                            <p>    </p>
+                            <p> NetGuard Pro - Um sistema de monitorização de rede </p>
                             <div class="tags"> <span>Python</span> </div>
                         </div>
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -142,13 +171,27 @@
 
 
             <div class="contact-grid">
-                <a href="https://www.linkedin.com/in/daniel-barros-fernandes-658ab63a8/" class="contact-item linkedin"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-                <a href="https://github.com/danicodys" class="contact-item github"><i class="fa-brands fa-github"></i> GitHub</a>
-                <a href="mailto:danielbarros30f3@gmail.com" class="contact-item email"><i class="fa-regular fa-envelope"></i> Email</a>
-                <a href="Corilo-Estagio.pdf" class="contact-item download" download><i class="fa-solid fa-download"></i> Download  CV</a>
+                <a href="https://www.linkedin.com/in/daniel-barros-fernandes-658ab63a8/" class="contact-item linkedin"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+
+                <a href="https://github.com/danicodys" class="contact-item github" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=danielbarros30f3@gmail.com"
+                    class="contact-item email" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-regular fa-envelope"></i> Email
+                </a>
+
+                <a href="Corilo-Estagio.pdf" class="contact-item download" download>
+                    <i class="fa-solid fa-download"></i> Download CV
+                </a>
             </div>
-            
-            
+
+
         </section>
     </main>
 
@@ -178,7 +221,7 @@
             document.getElementById('modal-desc').innerText = desc;
             document.getElementById('modal-img').src = img;
             document.getElementById('projeto-modal').style.display = "flex";
-            document.body.style.overflow = "hidden"; 
+            document.body.style.overflow = "hidden";
         }
 
         function fecharProjeto() {
@@ -186,11 +229,12 @@
             document.body.style.overflow = "auto";
         }
 
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             if (event.target == document.getElementById('projeto-modal')) {
                 fecharProjeto();
             }
         }
     </script>
 </body>
+
 </html>
